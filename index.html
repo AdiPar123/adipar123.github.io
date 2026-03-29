@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Srijay Deshpande" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Srijay Deshpande">Srijay Deshpande</h1>
+
+          <p class="title">Machine Learning Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:deshpandesrijay@gmail.com" class="contact-link">deshpandesrijay@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+447747247409" class="contact-link">+44 7747247409</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1993-10-26">October 26, 1993</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coventry, United Kingdom</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a senior machine learning engineer from Coventry, United Kingdom, working at Oracle Corp.
+            I enjoy designing complex AI-based systems, coding competitive challenges, and learning about system infrastructure.
+          </p>
+
+          <p>
+            My aim is to build user-friendly automated systems with optimized tools.
+            I also love travelling, making videos/vlogs and writing blogs.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML solutions design</h4>
+
+                <p class="service-item-text">
+                  Building ML-based solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Code development</h4>
+
+                <p class="service-item-text">
+                  High-quality code development at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Videography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality videos of any category.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Warwick</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Doctor of Philosophy - PhD<br>
+                Thesis: Generative AI for Digital Pathology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Technology, Bombay</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                Master of Technology in Computer Science<br>
+                Thesis: Improving Non-Compositionality Detection and Noun Compound Relational Classification using Deep Learning
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visvesvaraya National Institute of Technology</h4>
+
+              <span>2011 — 2015</span>
+
+              <p class="timeline-text">
+                Thesis: Query Optimization using Materialized Views
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Machine Learning Engineer at Oracle</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                LLMOps and recommender systems for cloud-scale products; owning model development and deployment workflows.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Consultant at Histofy</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                Computational pathology solutions using large language models and Hugging Face Cloud.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Postdoctoral Research Fellow at University of Warwick</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Led generative AI research for histology and biomedical data (genomics, proteomics); extended GAN pipelines for image synthesis and downstream prediction tasks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD Researcher at University of Warwick</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Built GAN-based frameworks for realistic histology image generation, tumor segmentation, and HER2 status prediction; co-developed TIAToolbox for end-to-end computational pathology workflows.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data and Applied Scientist at Microsoft</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                Improved Bing Ads retrieval with neural models (CLSM, fastText) across UK/IN/AU; delivered NLP-based ad-hoc retrieval models and .NET APIs for SMB Office 365 services.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Intern at Amazon</h4>
+
+              <span>2014</span>
+
+              <p class="timeline-text">
+                Built a Ruby on Rails “Bulk Download Tool for CreditNotes” to fetch, compress, and deliver documents on demand.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Oracle Cloud Infrastructure 2024 Certified Foundations Associate</h4>
+              <span>2024</span>
+              <p class="timeline-text">Foundational certification in Oracle Cloud services and architecture.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Honors & Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">GATE All India Rank 12</h4>
+              <p class="timeline-text">National-level ranking in the Graduate Aptitude Test in Engineering.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Best AURAA & Hackathon Runner-up</h4>
+              <p class="timeline-text">Recognized for innovation and delivery in competitive hackathon settings.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">All India Rank 3005</h4>
+              <p class="timeline-text">Additional national competitive examination ranking.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Global Young Scientists Summit Participant</h4>
+              <p class="timeline-text">Selected participant for the international research summit.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Large Language Models & LLMOps</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Generative AI & GANs</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Vision & Computational Pathology</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Engineering</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TIAToolbox as an end-to-end library for advanced tissue image analytics</h4>
+              <p class="timeline-text">J Pocock, S Graham, QD Vu, M Jahanifar, S Deshpande, ... — Communications Medicine 2 (1), 120, 2022</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CoNIC Challenge: Pushing the frontiers of nuclear detection, segmentation, classification and counting</h4>
+              <p class="timeline-text">S Graham, QD Vu, M Jahanifar, M Weigert, U Schmidt, W Zhang, J Zhang, ... — Medical Image Analysis 92, 103047, 2024</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SAFRON: stitching across the frontier network for generating colorectal cancer histology images</h4>
+              <p class="timeline-text">S Deshpande, F Minhas, S Graham, N Rajpoot — Medical Image Analysis 77, 102337, 2022</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SynCLay: Interactive synthesis of histology images from bespoke cellular layouts</h4>
+              <p class="timeline-text">S Deshpande, M Dawood, F Minhas, N Rajpoot — Medical Image Analysis 91, 102995, 2024</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mining swarm patterns in sliding windows over moving object data streams</h4>
+              <p class="timeline-text">A Bhushan, U Bellur, K Sharma, S Deshpande, NL Sarda — ACM SIGSPATIAL, 2017</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tiatoolbox: An end-to-end toolbox for advanced tissue image analytics</h4>
+              <p class="timeline-text">J Pocock, S Graham, QD Vu, M Jahanifar, S Deshpande, ... — bioRxiv, 2021</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Train small, generate big: Synthesis of colorectal cancer histology images</h4>
+              <p class="timeline-text">S Deshpande, F Minhas, N Rajpoot — Simulation and Synthesis in Medical Imaging, 2020</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SPADESegResNet: Harnessing Spatially-Adaptive Normalization for Breast Cancer Semantic Segmentation</h4>
+              <p class="timeline-text">S Deshpande, D Parkhi — Medical Image Understanding and Analysis, 2024</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Synthesis of Annotated Colorectal Cancer Tissue Images from Gland Layout</h4>
+              <p class="timeline-text">S Deshpande, F Minhas, N Rajpoot — arXiv:2305.05006, 2023</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mining query plans for finding candidate queries and sub-queries for materialized views in BI systems without cube generation</h4>
+              <p class="timeline-text">A Thakare, S Deshpande, A Kshirsagar, P Deshpande — Computing and Informatics 38 (2), 2019</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Synthesis of annotated colon cancer tissue images from gland layout</h4>
+              <p class="timeline-text">S Deshpande, F Minhas, N Rajpoot — Medical Imaging 2024: Digital and Computational Pathology, 2024</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Generative AI for computational pathology</h4>
+              <p class="timeline-text">SP Deshpande — University of Warwick, 2023</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cellular Segmentation and Composition in Routine Histology Images using Deep Learning</h4>
+              <p class="timeline-text">M Dawood, RMS Bashir, S Deshpande, M Raza, A Shephard — arXiv:2203.02510, 2022</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ouroboros: cross-linking protein expression perturbations and cancer histology imaging with generative-predictive modeling</h4>
+              <p class="timeline-text">S Deshpande, S Georgaka, M Haley, R Sellers, J Minshull, J Nallala, ... — Bioinformatics 40 (Supplement_2), 2024</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Generative models for synthesis of colorectal cancer histology images</h4>
+              <p class="timeline-text">S Deshpande, V Kovacheva, F Minhas, N Rajpoot — Biomedical Image Synthesis and Simulation, 2022</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Android App Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Coding</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Android App Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Coding</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="android app development">
+              <a href="https://play.google.com/store/apps/details?id=com.srijanai.safarly" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/glidetrip.png" alt="GlideTrip Android App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GlideTrip</h3>
+
+                <p class="project-category">Android App Development</p>
+                <p class="project-text">Destination-based suggestions and custom trip outlines to organize your travel days.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="coding">
+              <a href="https://www.hackerrank.com/profile/srijay" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="HackerRank Profile" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HackerRank Profile</h3>
+
+                <p class="project-category">Coding</p>
+                <p class="project-text">Algorithm and coding challenges showcasing competitive programming skills.</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://srijayphoenix.wordpress.com/2021/12/20/75/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="My Divine Experiences" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-12-20">Dec 20, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My Divine Experiences</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://srijayphoenix.wordpress.com/2021/01/24/why-msp-cant-be-added-in-farm-bill-2020/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Benefits of Farm Bill 2020 and reasons why MSP can’t be added in it" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Benefits of Farm Bill 2020 and reasons why MSP can’t be added in it</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://srijayphoenix.wordpress.com/2021/01/22/immortal-love/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Immortal Love" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Immortal Love</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://srijayphoenix.wordpress.com/2015/04/05/my-gate-journey/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="My GATE Journey……:)" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My GATE Journey……:)</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://srijayphoenix.wordpress.com/2021/01/21/the-temple-tiger-review/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The Temple Tiger Review" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Temple Tiger Review</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?q=Coventry%2C%20United%20Kingdom&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
